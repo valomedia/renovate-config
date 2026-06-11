@@ -4,9 +4,14 @@ Shared Renovate presets for valo.media repositories.
 
 ## Usage
 
-Add  to a repository:
+Add `renovate.json` to a repository:
 
-
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>valomedia/renovate-config"]
+}
+```
 
 This repository is public because public repositories using the hosted Renovate GitHub App cannot reliably extend presets from private repositories.
 
