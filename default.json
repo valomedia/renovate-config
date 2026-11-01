@@ -29,7 +29,7 @@
     {
       "description": "Automerge stable patch updates when CI passes.",
       "matchUpdateTypes": ["patch"],
-      "matchCurrentVersion": "!/^0/",
+      "matchCurrentVersion": ">=1.0.0",
       "automerge": true,
       "automergeType": "pr"
     },
@@ -40,7 +40,7 @@
     },
     {
       "description": "Require manual review for pre-1.0 packages.",
-      "matchCurrentVersion": "/^0/",
+      "matchCurrentVersion": "<1.0.0",
       "dependencyDashboardApproval": true
     },
     {
