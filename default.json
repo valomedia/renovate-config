@@ -54,5 +54,11 @@
       "matchDepTypes": ["devDependencies"],
       "groupName": "npm dev dependencies"
     }
+  ],
+  "logLevelRemap": [
+    {
+      "matchMessage": "Hidden Unicode characters have been discovered",
+      "newLogLevel": "info"
+    }
   ]
 }
