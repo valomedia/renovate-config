@@ -34,16 +34,6 @@
       "automergeType": "pr"
     },
     {
-      "description": "Require dashboard approval for major updates.",
-      "matchUpdateTypes": ["major"],
-      "dependencyDashboardApproval": true
-    },
-    {
-      "description": "Require manual review for pre-1.0 packages.",
-      "matchCurrentVersion": "<1.0.0",
-      "dependencyDashboardApproval": true
-    },
-    {
       "description": "Group GitHub Actions updates.",
       "matchManagers": ["github-actions"],
       "groupName": "GitHub Actions"
