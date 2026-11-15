@@ -57,7 +57,7 @@
   ],
   "logLevelRemap": [
     {
-      "matchMessage": "Hidden Unicode characters have been discovered",
+      "matchMessage": "/Hidden Unicode characters have been discovered/",
       "newLogLevel": "info"
     }
   ]
